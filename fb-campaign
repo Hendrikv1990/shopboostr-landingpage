@@ -1,0 +1,68 @@
+<div id="pricing-faq-header">
+<h3 class="fancy-header">What do we do?</h3>
+</div>
+[segment id="pricing-faq"]
+<div class="sixcol">
+<h4>Interactive Product Finder</h4>
+<p class="fancy-paragraph">Through our interactive product finder we help to match your customers with the right products.</p>
+
+<h4>Recommendation Engine</h4>
+<p class="fancy-paragraph">With the help of our recommendation engine we can generate better and more precise product recommendations compared to existing solutions in the market.</p>
+<a class="button orange large" style="margin-left: 33%; margin-top: 2%;" href="#bottom" target="_self">Learn More</a>
+
+</div>
+<div class="sixcol last"><img class="aligncenter size-full wp-image-4932" src="http://shopboostr.de/wp-content/uploads/2014/05/shopboostr-homepage-tool-small.png" alt="shopboostr-homepage-tool-small" width="1094" height="630" /></div>
+[/segment]
+
+[segment style="padding-left: 20px;padding-right: 20px;margin: 0 auto;padding-top:30px;"]
+<h2 style="margin-bottom:50px;">Join our Beta Program: Our Tool is Free for the first 6 months!</h2>
+[one_half]
+<div class="benefits-multiple"><img class="alignleft size-thumbnail wp-image-4784" src="http://shopboostr.de/wp-content/uploads/2014/04/features-3-150x150.png" alt="Increase your conversion rates" width="100" height="100" />
+<h4>20% More Conversion</h4>
+By matching your customers to the right products, you can increase your conversion rate by up to 20%
+
+</div>
+<div class="benefits-multiple"><img class="alignleft size-thumbnail wp-image-4785" src="http://shopboostr.de/wp-content/uploads/2014/04/features-4-150x150.png" alt="Unique shopping experience for your customers" width="100" height="100" />
+<h4>100% Performance &amp; Customization</h4>
+When our Tool is implemented on your website, it will be 100% Customized &amp; Optimized.
+
+</div>
+<div class="benefits-multiple"><img class="alignleft size-thumbnail wp-image-4734" src="http://shopboostr.de/wp-content/uploads/2014/04/features-2-150x150.png" alt="Low basket size" width="100" height="100" />
+<h4>15% More Upsells and Crossells</h4>
+By displaying additional upselling products and bundles, we can help you to increase your basket size by up to 15%.
+
+</div>
+<div class="benefits-multiple"><img class="alignleft size-thumbnail wp-image-4786" src="http://shopboostr.de/wp-content/uploads/2014/04/feautes-5-150x150.png" alt="Analyze customer behavior in our dashboard" width="100" height="100" />
+<h4>Analyze Customer Behavior</h4>
+In our dashboard you will be able to track the conversion rates of your product portfolio and gain unique insights about your customers.
+
+</div>
+
+[/one_half]
+
+[one_half_last]
+[ninja_forms_display_form id=3]
+[/one_half_last]
+
+[/segment]
+<div id="pricing-faq-header">
+<h3 class="fancy-header">Functionalities</h3>
+
+</div>
+[segment id="pricing-faq"]
+<a name="bottom"></a>
+[one_half]
+<h4 style="text-align:center;">Simple Integration</h4>
+<p style="text-align:center;">Our Tool integrates with every shopping platform - no hassle for shopowners, it's just an Iframe.</p>
+<h4 style="text-align:center;">Analytics</h4>
+<p style="text-align:center;">Get deep insights in customer's wants and needs - segment customers and find out which bundles work best.</p>
+[/one_half]
+
+[one_half_last]
+<h4 style="text-align:center;">Easy to adapt</h4>
+<p style="text-align:center;">With our Tool, the product finder, as well as the recommendation can be adapted out-of-the-box. It's extremely flexible.</p>
+<h4 style="text-align:center;">Algorithms</h4>
+<p style="text-align:center;">We gather customer insights and product details to constantly update our recommendations to provide the best experience.</p>
+[/one_half_last]
+
+[/segment]
