@@ -30,7 +30,7 @@
 		  <div ng-controller="ForcastConversionController">
 	 		 derzeitige Konvertierungsrate in %<input type="number" ng-model="num3">% 
 		
-          geschätzter Umsatz bisheriges  {{forcastconversionrate(num3) * forcastbasketsize(num2) * forcastvisitors (num1)|number:2}}
+          geschätzter Umsatz bisheriges  {{forcastconversionrate(num3) * forcastbasketsizecurrent(num2) * forcastvisitors (num1)|number:2}}
 			 Möglicher Umsatz mit Shopboostr  {{forcastconversionrate(num3) * forcastbasketsize(num2) * forcastvisitors (num1)* 1.19 | number:2}}
 			
 		  </div>

@@ -6,6 +6,7 @@ myApp.controller('ForcastController', ['$scope', function($scope) {
 }])
 
 myApp.controller('ForcastBasektSizeController', ['$scope', function($scope) {
+  $scope.forcastbasketsizecurrent = function(value) { return value * 1.0; };
   $scope.forcastbasketsize = function(value) { return value * 1.15; };
 
 }])
@@ -13,7 +14,7 @@ myApp.controller('ForcastBasektSizeController', ['$scope', function($scope) {
 
 
 myApp.controller('ForcastConversionController', ['$scope', function($scope) {
-  $scope.forcastconversionrate = function(value) { return value * 0.015; };
+  $scope.forcastconversionrate = function(value) { return value * 0.01; };
 
 }]);
 
