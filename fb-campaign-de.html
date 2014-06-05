@@ -24,14 +24,14 @@
 	
 	
 		<div ng-controller="ForcastBasektSizeController">
-	 	  derzeitiger Warenkorb<input type="number" ng-model="num2">mögliche Warenkorbgröße {{forcastbasketsize(num2)}}  
+	 	  derzeitiger Warenkorb<input type="number" ng-model="num2">mögliche Warenkorbgröße {{forcastbasketsize(num2) | number:2}}  
 	
 	
 		  <div ng-controller="ForcastConversionController">
 	 		 derzeitige Konvertierungsrate in %<input type="number" ng-model="num3">% 
 		
-          geschätzter Umsatz bisheriges  {{forcastconversionrate(num3) * forcastbasketsize(num2) * forcastvisitors (num1)}}
-			 Möglicher Umsatz mit Shopboostr  {{forcastconversionrate(num3) * forcastbasketsize(num2) * forcastvisitors (num1)* 1.19}}
+          geschätzter Umsatz bisheriges  {{forcastconversionrate(num3) * forcastbasketsize(num2) * forcastvisitors (num1)|number:2}}
+			 Möglicher Umsatz mit Shopboostr  {{forcastconversionrate(num3) * forcastbasketsize(num2) * forcastvisitors (num1)* 1.19 | number:2}}
 			
 		  </div>
 		</div>
