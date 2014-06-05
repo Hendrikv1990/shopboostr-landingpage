@@ -1,5 +1,13 @@
 <!-- FB page Deutsch -->
 <link href="style.css" rel="stylesheet">
+<html ng-app="myApp">
+
+<head>
+<script src="angular.min.js"></script>
+<script src="test.js"></script>
+<script src="angular.js"></script>
+
+</head>
 
 <div id="pricing-faq-header">
 <h3 class="fancy-header">Was wir machen?</h3>
@@ -7,6 +15,29 @@
 [segment id="pricing-faq"]
 <div class="sixcol">
 <h4>Interaktiver Produktberater</h4>
+
+<div>
+	
+	
+	<div ng-controller="ForcastController">
+	   Besucher täglich<input type="number" name="input" ng-model="num1">  
+	
+	
+		<div ng-controller="ForcastBasektSizeController">
+	 	  derzeitiger Warenkorb<input type="nmuber" ng-model="num2">mögliche Warenkorbgröße {{forcastbasketsize(num2)}}  
+	
+	
+		  <div ng-controller="ForcastConversionController">
+	 		 derzeitige Konvertierungsrate in %<input type="number" ng-model="num3">% 
+		
+          geschätzter Umsatz bisheriges  {{forcastconversionrate(num3) * forcastbasketsize(num2) * forcastvisitors (num1)}}
+			 Möglicher Umsatz mit Shopboostr  {{forcastconversionrate(num3) * forcastbasketsize(num2) * forcastvisitors (num1)* 1.19}}
+			
+		  </div>
+		</div>
+	</div>
+	
+</div>
 <p class="fancy-paragraph">Führen Sie Ihre Besucher zum richtigen Produkt!</p>
 
 <h4>Recommendation Engine - persönliches Empfehlungen</h4>
@@ -73,3 +104,5 @@ Shoboostr-Analytics ermöglicht Rückschlüsse auf das Kaufverhalten und die Kau
 
 [/segment]
 -->
+
+</html>
